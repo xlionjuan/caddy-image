@@ -12,7 +12,7 @@
       "matchPackageNames": ["docker.io/library/caddy"],
       "matchDatasources": ["docker"],
       "groupName": "Caddy and its builder",
-      "matchUpdateTypes": ["minor", "patch","pinDigest"],
+      "matchUpdateTypes": ["minor", "patch","pinDigest", "digest"],
       "automerge": true,
       "labels": ["dependencies"]
     },
