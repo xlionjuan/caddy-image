@@ -1,6 +1,6 @@
 # https://github.com/caddyserver/caddy/releases
 
-FROM docker.io/library/caddy:2.11.4-builder@sha256:2620ea2bb3ba2119a51dee02753f2e16e7f0a33dca5466e240e2d32f1df90a5b AS builder
+FROM docker.io/library/caddy:2.11.4-builder@sha256:15e4e5eeb6836970929ae074affc42a2e960f3f62db4a98f3e0f0e33183ae65d AS builder
 
 # Build Caddy with the Cloudflare DNS module
 RUN xcaddy build \
