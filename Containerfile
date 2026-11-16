@@ -16,7 +16,7 @@ RUN xcaddy build \
     
 
 # Final stage
-FROM docker.io/library/caddy:2.11.9@sha256:4e2425f6009577e7c651010f16679c28f7d12df3e7b1914f941a7a3370746b3c
+FROM docker.io/library/caddy:2.11.9@sha256:f971688b2aaf1a26d256de552f17fb13f64fc5ed2dee4cf40c7f9d70cea0e12d
 
 # Copy the custom-built Caddy binary
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
